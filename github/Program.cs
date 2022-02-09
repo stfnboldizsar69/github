@@ -10,15 +10,15 @@ namespace github
     {
         static void joke()
         { 
-            Console.WriteLine("knock knock");
+            Console.WriteLine("Knock knock.");
             string answear = Console.ReadLine();
             if (answear=="Who's there?")
             {
-                Console.WriteLine("Joe");
+                Console.WriteLine("Joe.");
                 string answear2 = Console.ReadLine();
                 if (answear2 == "Who's Joe?")
                 {
-                    Console.WriteLine("Joe Mama XDDDD");
+                    Console.WriteLine("Joe Mama!");
                 }
                 else
                 {
