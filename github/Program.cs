@@ -8,14 +8,22 @@ namespace github
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void joke()
+        { 
             Console.WriteLine("knock knock");
             string answear = Console.ReadLine();
             if (answear=="who's there")
             {
+                Console.WriteLine("Joe");
+                string answear2 = Console.ReadLine();
+                if (answear2 == "Who's Joe")
+                {
 
+                }
             }
+        }
+        static void Main(string[] args)
+        {
         }
     }
 }
