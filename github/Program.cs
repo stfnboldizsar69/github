@@ -18,12 +18,21 @@ namespace github
                 string answear2 = Console.ReadLine();
                 if (answear2 == "Who's Joe")
                 {
-
+                    Console.WriteLine("Joe Mama");
                 }
+                else
+                {
+                    joke();
+                }
+            }
+            else
+            {
+                joke();
             }
         }
         static void Main(string[] args)
         {
+            joke();
         }
     }
 }
