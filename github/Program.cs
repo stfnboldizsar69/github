@@ -12,13 +12,13 @@ namespace github
         { 
             Console.WriteLine("knock knock");
             string answear = Console.ReadLine();
-            if (answear=="who's there")
+            if (answear=="Who's there?")
             {
                 Console.WriteLine("Joe");
                 string answear2 = Console.ReadLine();
-                if (answear2 == "Who's Joe")
+                if (answear2 == "Who's Joe?")
                 {
-                    Console.WriteLine("Joe Mama");
+                    Console.WriteLine("Joe Mama XDDDD");
                 }
                 else
                 {
@@ -33,6 +33,7 @@ namespace github
         static void Main(string[] args)
         {
             joke();
+            Console.ReadLine();
         }
     }
 }
